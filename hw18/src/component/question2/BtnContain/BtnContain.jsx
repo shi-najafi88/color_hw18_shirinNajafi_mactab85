@@ -7,14 +7,12 @@ import './BtnContain.css'
 
 const BtnContain = (props)=> {
 
-    const increaseHandler= ()=> {
-       
-          props.setStatee(prev => prev+5)       
+    const increaseHandler= ()=> { 
+        props.setStatee(prev => prev+5)       
     }
 
     const decreaseHandler= ()=> {
         props.setStatee(prev => prev-5)
-
     }
 
     return(
