@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn_inc_dec{
+    padding: 0.7rem;
+    width: 100%;
+    background-color: rgb(90, 182, 240);
+    color: white;
+    margin-bottom: 0.5rem;
+}
