@@ -3,16 +3,16 @@ import { useState } from "react";
 import "./colorRnd.css"
 
 const ColorRnd = ()=> {
-    const red_value= Math.floor(Math.random()*255)
-    const green_value= Math.floor(Math.random()*255)
-    const blue_value= Math.floor(Math.random()*255)
-
-    const [color , setColor] = useState('rgb(' + 12 + ',' + 80 + ',' + 120 + ')')
+   
     const [arrayColor , setarrayColor] = useState([])
 
     const clickHandler = ()=> {
-        setColor('rgb(' + red_value + ',' + green_value + ',' + blue_value + ')')
-        const newItem = {rgb:color}
+
+        const red_value= Math.floor(Math.random()*255)
+        const green_value= Math.floor(Math.random()*255)
+        const blue_value= Math.floor(Math.random()*255)
+        const newItem = {rgb:'rgb(' + red_value + ',' + green_value + ',' + blue_value + ')'}
+        
         setarrayColor([...arrayColor,newItem])   
     }
     return(
