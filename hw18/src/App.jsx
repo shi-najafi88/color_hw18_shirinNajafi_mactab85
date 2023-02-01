@@ -8,14 +8,9 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
       {/* <ColorRnd/> */}
       {/* <AdjustColor/> */}
       <Form />
-   
-=======
-      <ColorRnd/>   
->>>>>>> question1
     </div>
   )
 }
